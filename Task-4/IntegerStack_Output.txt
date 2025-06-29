@@ -1,0 +1,6 @@
+Is stack empty? true
+Popped: 30
+Popped: 20
+Popped: 10
+Stack is empty. Cannot pop.
+Is stack empty? true

@@ -1,0 +1,4 @@
+Enter student name to display grade: Ravi
+Ravi's grade: 85
+Enter student name to remove: Ravi
+Student removed.

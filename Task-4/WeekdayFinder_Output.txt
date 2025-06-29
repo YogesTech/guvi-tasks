@@ -1,0 +1,2 @@
+Enter day index (0 to 6): 5
+Day is: Friday
