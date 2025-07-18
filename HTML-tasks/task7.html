@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 7 - Default Form Values</title>
+</head>
+<body>
+
+  <h1>Form with Default Values</h1>
+
+  <form>
+    <!-- Text input -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" value="Yogesh"><br><br>
+
+    <!-- Email input -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" value="abc@example.com"><br><br>
+
+    <!-- Password input -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" value="123456"><br><br>
+
+    <!-- Number input -->
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" value="23"><br><br>
+
+    <!-- Radio buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male" checked>
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="agree" name="agree" checked>
+    <label for="agree">I agree to the terms and conditions</label><br><br>
+
+    <!-- Dropdown -->
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option value="India" selected>India</option>
+      <option value="Germany">Germany</option>
+      <option value="USA">USA</option>
+    </select><br><br>
+
+    <!-- Textarea -->
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4">Hello!</textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
